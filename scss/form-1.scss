@@ -1,0 +1,88 @@
+.formulario1{
+    text-align: center;
+    margin-top: $size4;
+
+    label{
+        font-size: $size2;
+        color: $color1;
+    }
+    
+    input{
+        
+        font-size: $size2;
+        color: $color1;
+        background-color: $color2;
+        margin-bottom: $size3;
+        margin-top: $size3;
+        
+    }
+    
+    select{
+        width: 200px;
+        height: $size4;
+        font-size: $size2;
+        color: $color1;
+        background-color: $color2;
+        margin-bottom: $size3;
+        margin-top: $size3;
+    }
+    
+    .az{
+        color: blue;
+    }
+    
+    .ro{
+        color: red;
+    }
+    
+    .ve{
+        color: green;
+    }
+    
+    .ce{
+        color: aqua;
+    }
+    
+    .am{
+        color: yellow;
+    }
+    
+    .mo{
+        color: purple;
+    }
+    
+    .na{
+        color: orange;
+    }
+    
+    .enviar{
+        width: 150px;
+        height: $size5;
+        font-size: $size3;
+        margin-top: $size3;
+    }
+}
+
+.center-text{
+    text-align: center;
+
+    h3{
+        color: $color1;
+        font-size: $size2;
+        margin-top: $size4;
+        margin-bottom: $size4;
+        margin-left: 2px;
+        margin-right: 2px;
+        
+    }
+    
+    a{
+        font-size: $size4;
+        background-color: $color1;
+        border: $color2 $size1 solid;
+        text-decoration: none;
+        display: inline-block;
+        color: $color2;
+        margin-bottom: $size3;
+    }
+}

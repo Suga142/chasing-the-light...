@@ -1,0 +1,112 @@
+main{
+    text-align: center;
+
+    .centro{
+        animation-name: aparicion;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+
+        .logo{
+            width: 35vw;
+            height: 17vh;
+            margin-top: 10px;
+            margin-bottom: $size3;
+        
+            animation-name: palpitar;
+            animation-duration: 1.7s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+        
+        .img1{
+            width: 50vw;
+            height: 55vh;
+            display: none;
+            margin-bottom: $size4;
+            padding-right: 35px;
+        }
+        
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+        
+        }
+        li{
+            display: list-item;
+             
+            margin-bottom: 12px;
+        }
+        
+        .ptr{
+            width: 35px;
+            height: 35px;
+            margin-top: 7px;
+        }
+        
+        .ptr:hover{
+            width: 60px;
+            height: 60px;
+        }
+        
+        
+        .instw{
+            width: 42px;
+            height: 42px;
+        }
+        
+        .instw:hover{
+            width: 70px;
+            height: 70px;
+        }
+        
+        .disc{
+            width: $size5;
+            height: $size5;
+            margin-top: 5px;
+        }
+        
+        .disc:hover{
+            width: 72px;
+            height: 72px;
+        }
+
+        @media screen and (min-width: 650px){
+    
+            .centro{
+                display: flex;
+                flex-direction: row-reverse;
+                justify-content: space-between;
+                margin-top: 120px;
+        
+                
+            }
+        
+            .centro ul{
+                display: flex;
+                flex-direction: column;
+            }
+        
+            .logo{
+                width: 8vw;
+                height: 10vh;
+            }
+        
+            .img1{
+                display: inline-block;
+            }
+        }
+    }
+    
+    p{
+        font-size: $size2;
+        color: $color1;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        
+    }
+
+    
+}    
+    

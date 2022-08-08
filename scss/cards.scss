@@ -1,0 +1,36 @@
+h2{
+    color: $color1;
+    margin: 35px;
+}
+
+.conse-grid{
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 60px;
+
+    .card{
+        width: 18rem;
+        background-color: $color2;
+        border: $color1 $size1 solid;
+    
+        animation-name: bajar;
+        animation-duration: 1.3s;
+        animation-timing-function: ease;
+        animation-iteration-count: 1;
+
+        img{
+            height: 30vh;
+        }
+        
+        h5{
+            color: $color3;
+        }
+        
+        p{
+            color: $color3;
+        }
+    }
+    
+
+}
+

@@ -1,0 +1,25 @@
+.info{
+    animation-name: aparicion;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    margin: 60px;
+
+    .accordion-item{
+        background-color: $color2;
+        border: $color1 $size1 solid !important;
+    }
+    
+    
+    .accordion-button{
+        background-color: $color2;
+        color: $color1;
+        font-size: 22px;
+    }
+    
+    .accordion-body{
+        color: $color1;
+    }
+}
+
+
+
