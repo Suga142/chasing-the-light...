@@ -1,0 +1,34 @@
+- index.html
+    - Agregué Keywords: Chasing The Light, CTL, Zona Gamer, Suspenso, Juegos Indie, Supervivencia, Videojuegos, Videojuego gratis, Gamer.
+    - Agregué Description: Inicio de la plataforma del videojuego Chasing The Light.
+    - Agregué el logo como Favicon.
+
+- noticias.html
+    - Agregué Keywords: Chasing The Light, CTL, Noticias, Actualizaciones, Juegos Indie, Supervivencia, Videojuegos, Gamer.
+    - Agregué Description: Noticias y actualizaciones del videojuego Chasing The Light.
+    - Agregué el logo como Favicon.
+
+- noticias-2.html
+    - Agregué Keywords: Chasing The Light, CTL, Noticias, Actualizaciones, Juegos Indie, Supervivencia, Videojuegos, Gamer.
+    - Agregué Description: Noticias y actualizaciones del videojuego Chasing The Light.
+    - Agregué el logo como Favicon.
+
+- noticias-3.html
+    - Agregué Keywords: Chasing The Light, CTL, Noticias, Actualizaciones, Juegos Indie, Supervivencia, Videojuegos, Gamer.
+    - Agregué Description: Noticias y actualizaciones del videojuego Chasing The Light.
+    - Agregué el logo como Favicon.
+
+- soporte.html
+    - Agregué Keywords: Chasing The Light, CTL, Ayuda al jugador, Juegos Indie, Videojuegos, Gamer.
+    - Agregué Description: Soporte al usuario de la plataforma del videojuego Chasing The Light.
+    - Agregué el logo como Favicon.
+
+- comunidad.html
+    - Agregué Keywords: Chasing The Light, CTL, Comunidad Gamer, Zona Gamer, Suspenso, Juegos Indie, Supervivencia, Videojuegos, Videojuego gratis, Gamer.
+    - Agregué Description: Sección de comunidad y comentarios del videojuego Chasing The Light.
+    - Agregué el logo como Favicon.
+
+- informacion.html
+    - Agregué Keywords: Chasing The Light, CTL, Zona Gamer, Preguntas frecuentes, Juegos Indie, Videojuegos, Videojuego gratis, Gamer.
+    - Agregué Description: Sección de información del videojuego Chasing The Light.
+    - Agregué el logo como Favicon.
