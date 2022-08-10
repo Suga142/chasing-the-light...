@@ -7,15 +7,15 @@ h3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    margin-top: $size5;
+    margin-bottom: $size*16;
+    margin-top: $size*13;
     color: $color3;
     
         
     label{
         background-color: $color2;
         border: $color1 2px solid;
-        padding: 5px;
+        padding: $size*2;
     }
         
     input{
@@ -25,7 +25,7 @@ h3{
         
     textarea{
         resize: none;
-        font-size: $size2;
+        font-size: $size*6;
         background-color: $color2;
         height: 30vh;
     }

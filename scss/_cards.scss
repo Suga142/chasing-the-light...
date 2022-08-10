@@ -1,17 +1,17 @@
 h2{
     color: $color1;
-    margin: 35px;
+    margin: $size*12;
 }
 
 .conse-grid{
     gap: 25px;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: $size*20;
 
     .card{
         width: 18rem;
         background-color: $color2;
-        border: $color1 $size1 solid;
+        border: $color1 $size solid;
     
         animation-name: bajar;
         animation-duration: 1.3s;

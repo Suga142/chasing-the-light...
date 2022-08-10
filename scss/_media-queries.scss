@@ -27,7 +27,7 @@
     
 
     h5{
-        font-size: $size2;
+        font-size: $size*6;
     }
 
 
@@ -53,9 +53,9 @@
         "not-1 not-2"
         "not-3 not-4"
         ;
-        padding: 15px;
-        column-gap: 15px;
-        row-gap: $size5;
+        padding: $size*5;
+        column-gap: $size*5;
+        row-gap: $size*13;
     }
 
     .not-1{

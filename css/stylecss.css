@@ -1,3 +1,24 @@
+.color-rojo {
+  color: red; }
+
+.color-azul {
+  color: blue; }
+
+.color-amarillo {
+  color: yellow; }
+
+.color-verde {
+  color: green; }
+
+.color-morado {
+  color: purple; }
+
+.color-naranja {
+  color: orange; }
+
+.color-celeste {
+  color: aqua; }
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +35,7 @@ body {
   border: #9bcede 3px solid; }
   .navbar h1 {
     color: #9bcede;
-    font-size: 40px;
+    font-size: 39px;
     text-align: center;
     animation-name: entrar;
     animation-duration: .5s;
@@ -23,11 +44,11 @@ body {
   .navbar a {
     color: #9bcede !important;
     padding-right: 1vw !important;
-    font-size: 20px;
+    font-size: 21px;
     transition-delay: .1s;
     transition-timing-function: ease; }
   .navbar .nav-link:hover {
-    color: #49efdc !important; }
+    color: #9bcede !important; }
 
 main {
   text-align: center; }
@@ -38,8 +59,8 @@ main {
     main .centro .logo {
       width: 35vw;
       height: 17vh;
-      margin-top: 10px;
-      margin-bottom: 20px;
+      margin-top: 9px;
+      margin-bottom: 21px;
       animation-name: palpitar;
       animation-duration: 1.7s;
       animation-timing-function: ease;
@@ -49,7 +70,7 @@ main {
       height: 55vh;
       display: none;
       margin-bottom: 30px;
-      padding-right: 35px; }
+      padding-right: 36px; }
     main .centro ul {
       list-style-type: none;
       display: flex;
@@ -58,25 +79,25 @@ main {
       display: list-item;
       margin-bottom: 12px; }
     main .centro .ptr {
-      width: 35px;
       height: 35px;
+      width: 35px;
       margin-top: 7px; }
     main .centro .ptr:hover {
-      width: 60px;
-      height: 60px; }
+      height: 60px;
+      width: 60px; }
     main .centro .instw {
-      width: 42px;
-      height: 42px; }
+      height: 42px;
+      width: 42px; }
     main .centro .instw:hover {
-      width: 70px;
-      height: 70px; }
+      height: 70px;
+      width: 70px; }
     main .centro .disc {
-      width: 40px;
       height: 40px;
+      width: 40px;
       margin-top: 5px; }
     main .centro .disc:hover {
-      width: 72px;
-      height: 72px; }
+      height: 72px;
+      width: 72px; }
     @media screen and (min-width: 650px) {
       main .centro .centro {
         display: flex;
@@ -108,35 +129,21 @@ main {
     font-size: 18px;
     color: #9bcede;
     background-color: #102f38;
-    margin-bottom: 20px;
-    margin-top: 20px; }
+    margin-bottom: 21px;
+    margin-top: 21px; }
   .formulario1 select {
-    width: 200px;
     height: 30px;
+    width: 200px;
     font-size: 18px;
     color: #9bcede;
     background-color: #102f38;
-    margin-bottom: 20px;
-    margin-top: 20px; }
-  .formulario1 .az {
-    color: blue; }
-  .formulario1 .ro {
-    color: red; }
-  .formulario1 .ve {
-    color: green; }
-  .formulario1 .ce {
-    color: aqua; }
-  .formulario1 .am {
-    color: yellow; }
-  .formulario1 .mo {
-    color: purple; }
-  .formulario1 .na {
-    color: orange; }
+    margin-bottom: 21px;
+    margin-top: 21px; }
   .formulario1 .enviar {
-    width: 150px;
     height: 40px;
-    font-size: 20px;
-    margin-top: 20px; }
+    width: 150px;
+    font-size: 21px;
+    margin-top: 21px; }
 
 .center-text {
   text-align: center; }
@@ -154,11 +161,11 @@ main {
     text-decoration: none;
     display: inline-block;
     color: #102f38;
-    margin-bottom: 20px; }
+    margin-bottom: 21px; }
 
 h2 {
   color: #9bcede;
-  margin: 35px; }
+  margin: 36px; }
 
 .conse-grid {
   gap: 25px;
@@ -182,16 +189,16 @@ h2 {
 footer {
   display: flex;
   flex-flow: column wrap;
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
   color: #9bcede;
-  margin-top: 20px; }
+  margin-top: 21px; }
   footer h5 {
     margin-bottom: 70px;
     background-color: #102f38;
     display: inline-block;
     border: #9bcede 2px solid;
-    padding: 5px; }
+    padding: 3px 2; }
 
 .noticias {
   display: grid;
@@ -201,17 +208,17 @@ footer {
   animation-name: aparicion;
   animation-duration: 1s;
   animation-timing-function: ease; }
-  .noticias .noticia {
+  .noticias .noticia, .noticias .evento {
     text-align: center;
     color: #9bcede;
     list-style-type: none;
     background-color: #102f38;
     border: #9bcede 3px solid; }
   .noticias h2 {
-    font-size: 20px;
-    padding: 5px; }
+    font-size: 21px;
+    padding: 6px; }
   .noticias p {
-    font-size: 17px;
+    font-size: 18px;
     margin-top: 15px; }
   .noticias ul {
     list-style-type: none;
@@ -224,7 +231,7 @@ footer {
     margin-top: 15px; }
   .noticias li {
     padding-bottom: 30px;
-    font-size: 17px; }
+    font-size: 18px; }
   .noticias .enlace2 {
     color: #9bcede; }
   .noticias .enlace2:hover {
@@ -236,7 +243,7 @@ footer {
 .pagination {
   display: flex;
   justify-content: center;
-  margin-top: 40px; }
+  margin-top: 39px; }
 
 h3 {
   color: #9bcede; }
@@ -246,13 +253,13 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
-  margin-top: 40px;
+  margin-bottom: 48px;
+  margin-top: 39px;
   color: #49efdc; }
   .form-2 label {
     background-color: #102f38;
     border: #9bcede 2px solid;
-    padding: 5px; }
+    padding: 6px; }
   .form-2 input {
     width: 300px;
     background-color: #102f38; }
@@ -273,8 +280,8 @@ h3 {
   background-color: #102f38;
   border: #9bcede 3px solid;
   display: inline-block;
-  font-size: 20px;
-  margin-top: 25px; }
+  font-size: 21px;
+  margin-top: 24px; }
 
 .texta2 {
   resize: none;
@@ -284,15 +291,15 @@ h3 {
 
 .enviar2 {
   text-align: center;
-  margin-bottom: 25px; }
+  margin-bottom: 24px; }
 
 .comentario {
   color: #9bcede;
   background-color: #102f38;
   border: #9bcede 3px solid;
-  margin-top: 50px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-top: 51px;
+  margin-left: 6px;
+  margin-right: 6px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -310,7 +317,7 @@ h3 {
   .info .accordion-button {
     background-color: #102f38;
     color: #9bcede;
-    font-size: 22px; }
+    font-size: 21px; }
   .info .accordion-body {
     color: #9bcede; }
 
@@ -372,7 +379,7 @@ h3 {
     grid-template-areas: "not-1 not-2" "not-3 not-4";
     padding: 15px;
     column-gap: 15px;
-    row-gap: 40px; }
+    row-gap: 39px; }
   .not-1 {
     grid-area: not-1; }
   .not-2 {

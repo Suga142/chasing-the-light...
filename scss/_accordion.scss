@@ -2,18 +2,18 @@
     animation-name: aparicion;
     animation-duration: 1s;
     animation-timing-function: ease;
-    margin: 60px;
+    margin: $size*20;
 
     .accordion-item{
         background-color: $color2;
-        border: $color1 $size1 solid !important;
+        border: $color1 $size solid !important;
     }
     
     
     .accordion-button{
         background-color: $color2;
         color: $color1;
-        font-size: 22px;
+        font-size: $size*7;
     }
     
     .accordion-body{
